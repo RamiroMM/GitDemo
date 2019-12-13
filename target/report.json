@@ -1,0 +1,187 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-12-04T00:51:17.621Z",
+        "line": 4,
+        "name": "Search for items and validate results",
+        "description": "",
+        "id": "search-and-place-order-for-vegetables;search-for-items-and-validate-results",
+        "after": [
+          {
+            "result": {
+              "duration": 121919000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterSeleniumTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17209829000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Greenkart landing page",
+            "match": {
+              "location": "MyStepDefinitions.user_is_on_greenkart_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3272367500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User searches for \"Cucumber\" vegetable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 19
+                }
+              ],
+              "location": "MyStepDefinitions.user_searches_for_something_vegetable(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46446000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "\"Cucumber\" results are displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 1
+                }
+              ],
+              "location": "MyStepDefinitions.something_results_are_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SeleniumTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-04T00:51:38.317Z",
+        "line": 10,
+        "name": "Search for items and move to checkout page",
+        "description": "",
+        "id": "search-and-place-order-for-vegetables;search-for-items-and-move-to-checkout-page",
+        "after": [
+          {
+            "result": {
+              "duration": 85180900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterSeleniumTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12656000400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on Greenkart landing page",
+            "match": {
+              "location": "MyStepDefinitions.user_is_on_greenkart_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3245403000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User searches for \"Brinjal\" vegetable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brinjal",
+                  "offset": 19
+                }
+              ],
+              "location": "MyStepDefinitions.user_searches_for_something_vegetable(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 179240900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Add adds items to cart",
+            "match": {
+              "location": "MyStepDefinitions.add_adds_items_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160305800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User proceeds to checkout page",
+            "match": {
+              "location": "MyStepDefinitions.user_proceeds_to_checkout_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28910400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Selected \"Brinjal\" item is displayed in checkout page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brinjal",
+                  "offset": 10
+                }
+              ],
+              "location": "MyStepDefinitions.selected_something_item_is_displayed_in_checkout_page(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SeleniumTest"
+          }
+        ]
+      }
+    ],
+    "name": "Search and place order for vegetables",
+    "description": "",
+    "id": "search-and-place-order-for-vegetables",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/search.feature",
+    "tags": []
+  }
+]
