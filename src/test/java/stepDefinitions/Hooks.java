@@ -6,6 +6,12 @@ import io.cucumber.java.Before;
 
 public class Hooks extends Base{
 	
+	public void printSomething() {
+		System.out.println("This is only to make chages in code");
+		System.out.println("This is only to make chages in code 2");
+		System.out.println("This is only to make chages in code 3");
+	}
+	
 	@Before("@MobileTest")
 	public void beforeValidations() {
 		System.out.println("Hook before Mobile Tests");
