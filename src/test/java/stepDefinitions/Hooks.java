@@ -10,6 +10,7 @@ public class Hooks extends Base{
 		System.out.println("This is only to make chages in code");
 		System.out.println("This is only to make chages in code 2");
 		System.out.println("This is only to make chages in code 3");
+		System.out.println("Adding comment from the other user's project");
 	}
 	
 	@Before("@MobileTest")
