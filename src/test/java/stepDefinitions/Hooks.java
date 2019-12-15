@@ -15,6 +15,8 @@ public class Hooks extends Base{
 		System.out.println("Adding comment to new develop branch");
 		System.out.println("Adding comment to new develop branch 2");
 		System.out.println("Adding comment to new develop branch 3");
+		
+		System.out.println("Adding comment to new develop branch from the other guy");
 	}
 	
 	@Before("@MobileTest")
